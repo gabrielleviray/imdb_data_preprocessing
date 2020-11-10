@@ -29,6 +29,7 @@ pd.set_option('display.max_columns', 50)
     #   imdb_score: ratio
     #   actors: nominal
     #   movie_facebook_likes: ratio
+    #
     
 def load_data(filename):
     """Given a filename of a csv load data into a Pandas dataframe.
